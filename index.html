@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+
+<body class="font-hanken bg-neutral-pale box-border flex items-center justify-center h-screen">
+
+  <main class="bg-neutral-white rounded-3xl md:flex">
+
+    <div
+      class="bg-gradient-to-b from-gradient-slate to-gradient-royal flex items-center justify-center flex-col w-96 h-96 p-6 rounded-3xl md:w-80">
+      <h2 class="text-xl text-neutral-lavender">Your Result</h2>
+      <p
+        class="text-neutral-lavender/50 h-32 w-32 bg-gradient-to-b from-gradient-violet to-gradient-persian/5 rounded-full flex flex-col justify-center items-center m-6">
+        <span class="text-5xl text-neutral-white font-bold block">76</span>of
+        100
+      </p>
+      <h1 class="text-2xl font-normal text-neutral-white">Great</h1>
+      <p class="text-center mt-2 px-6 text-neutral-lavender">You scored higher than 65% of the people who have taken
+        these
+        tests.</p>
+    </div>
+
+
+    <div class="flex flex-col font-bold">
+      <h2 class="text-xl text-neutral-gray p-6">Summary</h2>
+
+      <div class="flex flex-col space-y-8 px-8 mb-6 md:mb-0 md:space-y-5 md:w-80">
+        <div class="flex justify-between bg-primary-red/5 rounded-lg py-2 px-2">
+          <div><img src="/assets/images/icon-reaction.svg" alt="icon" class="inline" /><span
+              class="ml-3 text-primary-red">Reaction</span>
+          </div>
+          <div class="text-neutral-gray">80<span class="text-neutral-lavender ml-1"> / 100</span></div>
+        </div>
+
+        <div class="flex justify-between bg-primary-yellow/5 rounded-lg py-2 px-2">
+          <div><img src="/assets/images/icon-memory.svg" alt="icon" class="inline" /><span
+              class="ml-3 text-primary-yellow">Memory</span>
+          </div>
+          <div class="text-neutral-gray">92<span class="text-neutral-lavender ml-1"> / 100</span></div>
+        </div>
+
+        <div class="flex justify-between bg-primary-teal/5 rounded-lg py-2 px-2">
+          <div><img src="/assets/images/icon-verbal.svg" alt="icon" class="inline" /><span
+              class="ml-3 text-primary-teal">Verbal</span>
+          </div>
+          <div class="text-neutral-gray">61<span class="text-neutral-lavender ml-1"> / 100</span></div>
+        </div>
+
+        <div class="flex justify-between bg-primary-blue/5 rounded-lg py-2 px-2">
+          <div><img src="/assets/images/icon-visual.svg" alt="icon" class="inline" /><span
+              class="ml-3 text-primary-blue">Visual</span>
+          </div>
+          <div class="text-neutral-gray">72<span class="text-neutral-lavender ml-1"> / 100</span></div>
+        </div>
+
+        <button class="bg-neutral-gray text-neutral-white rounded-full py-3">Continue</button>
+      </div>
+    </div>
+
+
+  </main>
+
+</body>
+
+</html>
